@@ -8,7 +8,7 @@ const Layout = ({children}) => {
       <div className="hidden md:block sticky top-0 z-50">
         <Navbar />
       </div>
-      <div className="block md:hidden">
+      <div className="block sticky top-0 z-50 md:hidden">
         <MobileMenu />
       </div>
       {children}

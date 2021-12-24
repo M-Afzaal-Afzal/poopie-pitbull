@@ -63,7 +63,7 @@ const MobileMenu = () => {
             <AnchorLink href="#Teams">Teams</AnchorLink>
           </span>
           <span className="text-xl text-Offwhite-default transition-all hover:text-secondary py-3.5 border-b border-primary">
-            <AnchorLink href="#specs">specs</AnchorLink>
+            <AnchorLink href="#Specs">specs</AnchorLink>
           </span>
           <span className="text-xl text-Offwhite-default transition-all hover:text-secondary py-3.5 border-b border-primary">
             <AnchorLink href="#About">About</AnchorLink>
