@@ -4,14 +4,16 @@ import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import {GiHamburgerMenu} from "react-icons/gi";
+
 const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   const toggleDrawer = () => {
     setIsOpen(prevState => !prevState);
   };
 
   return (
-    <div className="  w-full bg-black-default z-50 top-0 shadow-md">
+    <div className="w-full bg-black-default z-50 top-0 shadow-md">
       <div className="flex justify-between bg-black-default z-50 h-20  py-5 shadow-lg border-b border-Offwhite-default">
         <div className="pl-5 flex self-center">
           <Image
@@ -63,7 +65,7 @@ const MobileMenu = () => {
             <AnchorLink href="#Teams">Teams</AnchorLink>
           </span>
           <span className="text-xl text-Offwhite-default transition-all hover:text-secondary py-3.5 border-b border-primary">
-            <AnchorLink href="#Specs">specs</AnchorLink>
+            <AnchorLink href="#Specs">Specs</AnchorLink>
           </span>
           <span className="text-xl text-Offwhite-default transition-all hover:text-secondary py-3.5 border-b border-primary">
             <AnchorLink href="#About">About</AnchorLink>
