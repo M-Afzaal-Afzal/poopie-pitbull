@@ -1,4 +1,5 @@
 import React from 'react'
+import {FaDiscord, FaInstagram, FaTwitter, FaFacebook} from "react-icons/fa";
 
 function Footer() {
     return (
@@ -15,12 +16,26 @@ function Footer() {
                  </div>
             </div>
             <div className=' mt-16 grid grid-cols-1 md:grid-cols-3 px-4 gap-4 place-items-center md:place-items-start justify-evenly items-center' >
-                <p className='text-white-light text-lg' >Poopie Pitbull NFT © 2021 </p>
-                <a className='text-white-light text-lg' target={"_blank"} href="">Terms & conditions</a>
-                <div className='flex' >
-                    <a href=""><img className='m-2' src="./images/discord-fill.png" alt="" /></a>
-                    <a href=""><img className='m-2' src="./images/twitter-fill.png" alt="" /></a>
-                    <a href=""><img className='m-2' src="./images/facebook-fill.png" alt="" /></a>
+                <p className='text-white-light text-lg mx-auto' >Poopie Pitbull NFT © 2021 </p>
+                <a className='text-white-light text-lg mx-auto' target={"_blank"} href="">Terms & conditions</a>
+                <div className='flex mx-auto space-x-4' >
+
+                    <a className={'text-white-light'} href="">
+                        <FaDiscord size={30}/>
+                    </a>
+
+                    <a className={'text-white-light'} href="">
+                        <FaTwitter size={30}/>
+                    </a>
+
+                    <a className={'text-white-light'} href="">
+                        <FaFacebook size={30}/>
+                    </a>
+
+                    <a className={'text-white-light'} href="">
+                        <FaInstagram size={30}/>
+                    </a>
+
                 </div>
             </div>
         </div>
